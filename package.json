@@ -32,9 +32,13 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelFernandez008/display-my-counter"
+  },
   "keywords": [
     "react-component",
     "counter"
   ]
+  
 }
