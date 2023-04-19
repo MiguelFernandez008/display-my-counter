@@ -6,7 +6,7 @@ module.exports = {
   },
   webpack: {
     rules: {
-      'sass-css': {
+      'css': {
         modules: {
           localIdentName: '[name]__[local]___[hash:base64:5]'
         }        

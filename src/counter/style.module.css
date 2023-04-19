@@ -29,10 +29,6 @@
   -moz-osx-font-smoothing: inherit;
   -webkit-appearance: none;
   /* Remove excess padding and border in Firefox 4+ */
-  &::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-  }
   font-size: 20px;
   border: 1px solid teal;
   -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
@@ -40,9 +36,14 @@
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   min-width: 100px;
   padding: 16px;
-  transition: all .25s linear;
+  transition: all 0.25s linear;
   cursor: pointer;
-  &:hover {
-    background-color: rgba(0,0,0,.05);
-  }
+}
+
+.ctr--button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ctr--button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }

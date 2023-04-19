@@ -1,6 +1,6 @@
 import React, { cloneElement, Fragment, isValidElement } from "react";
 import { useCounter } from "./Logic";
-import styles from "./style.module.scss";
+import styles from "./style.module.css";
 
 const Counter = ({ CustomComponent }) => {
   const { counter, increment, decrement } = useCounter();
