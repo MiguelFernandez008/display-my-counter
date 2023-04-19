@@ -1,6 +1,6 @@
 {
   "name": "display-my-counter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple React counter component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -40,5 +40,4 @@
     "react-component",
     "counter"
   ]
-  
 }
