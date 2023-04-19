@@ -1,16 +1,26 @@
-# counter
+# display-my-counter
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+Simple React counter component
 
-Describe counter here.
+## Instalation
+```
+npm i display-my-counter
+```
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+## Usage
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+Import the component and call it in your app
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+```
+<Counter />
+```
+
+## Override
+
+The counter component accepts a property called CustomComponent. This is a React component that will receive counter value and increment and decrement functions.
+
+```
+const Custom = ({ counter, increment, decrement }) => <p>{counter}</p>;
+
+<Counter CustomComponent={<Custom />} />
+```

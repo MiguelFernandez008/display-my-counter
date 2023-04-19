@@ -1,7 +1,7 @@
 {
-  "name": "counter",
+  "name": "display-my-counter",
   "version": "1.0.0",
-  "description": "counter React component",
+  "description": "Simple React counter component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "nwb": "0.25.x",
+    "nwb-sass": "^0.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -33,6 +34,7 @@
   "license": "MIT",
   "repository": "",
   "keywords": [
-    "react-component"
+    "react-component",
+    "counter"
   ]
 }
